@@ -110,13 +110,14 @@ footer p {
 .image-container {
     position: relative;
     overflow: hidden;
-    border-radius: 5px;
 }
 
 .image-container img {
     width: 100%;
     display: block;
-    border-radius: 5px;
+    border: 1px solid #003366;
+	border-radius: 50px;
+	padding: 5px;
     transition: transform 1.5s ease;
 }
 
@@ -128,7 +129,7 @@ footer p {
     position: absolute;
     bottom: 10px;
     left: 10px;
-    background-color: rgba(0, 51, 102, 0.7);
+    background-color: #003366;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
