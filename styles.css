@@ -38,25 +38,58 @@ header h1 {
     font-size: 36px;
 }
 
-nav ul {
+.Des ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-nav ul li {
+.Des ul li {
     display: inline;
     margin-right: 20px;
 }
 
-nav ul li a {
+.Des ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
     transition: color 1.5s ease;
 }
 
-nav ul li a:hover {
+.Des ul li a:hover {
+    color: #ffd700;
+}
+
+.SDes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.SDes ul li {
+	float: left;
+    clear: left;
+    display: inline;
+	margin-left: 0px;
+    margin-right: 150px;
+}
+
+.SDes ul li a {
+    text-decoration: none;
+    color: #003366;
+    font-size: 24px;
+    transition: color 1.5s ease;
+}
+
+.SDes ul li img {
+	border: 1px solid #003366;
+	border-radius: 10px;
+	padding: 5px;
+	width: 100%;
+	height: 100%;
+}
+
+.SDes ul li a:hover {
     color: #ffd700;
 }
 
@@ -111,7 +144,13 @@ footer p {
     margin: 0;
 }
 
+.PG {
+	text-align: center;
+	clear: left;
+}
+
 .image-container {
+	clear: left;
     position: relative;
     overflow: hidden;
 }
@@ -131,11 +170,11 @@ footer p {
 
 .image-container p {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 20px;
+    left: 20px;
     background-color: #003366;
     color: #fff;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 30px;
     font-size: 14px;
 }
